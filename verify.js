@@ -48,7 +48,7 @@ async function verify() {
       score += 10;
       report.push("Exercise 2: PASS");
     } else {
-      report.push("Exercise 2: FAIL (missing required fields)");
+      report.push("Exercise 2: FAIL (missing required fields, make sure all students documents have at least four fields (name,department,semester and mobile)");
     }
   } catch {
     report.push("Exercise 2: FAIL");
